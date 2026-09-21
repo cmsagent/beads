@@ -1,0 +1,8 @@
+title: Our Bead Shop
+url: https://hama.stevensnetwork.co.uk
+baseurl: ""
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

@@ -1,0 +1,5 @@
+{% assign details = site.data.products[include.photo.path] %}
+{% assign filename_title = include.photo.basename | replace: '-', ' ' | replace: '_', ' ' | capitalize %}
+{% assign title = details.title | default: filename_title %}
+{% assign alt = details.alt | default: title %}
+<article class="card"><div class="photo"><img src="{{ include.photo.path | relative_url | uri_escape | escape }}" alt="{{ alt | escape }}" loading="lazy" decoding="async"></div><div class="caption"><div><h3>{{ title | escape }}</h3>{% if details.caption %}<p>{{ details.caption | escape }}</p>{% endif %}</div><span class="dot" aria-hidden="true"></span></div></article>

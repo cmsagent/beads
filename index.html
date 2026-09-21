@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <!doctype html>
 <html lang="en">
 <head>
@@ -16,11 +19,21 @@
 <section class="intro"><p class="eyebrow">Made by hand, bead by bead</p><h1>Small creations,<br>big smiles.</h1><p>Welcome to our colourful little collection.</p></section>
 <section class="collection" aria-labelledby="collection-title"><div class="section-label"><h2 id="collection-title">Meet our makes</h2><span class="pill">Handmade with care</span></div>
 <div class="grid">
-<article class="card"><div class="photo"><img src="assets/unicorn.jpg" alt="Original purple bead unicorn with white hooves and a turquoise horn"></div><div class="caption"><div><h3>Purple unicorn</h3><p>A little bit of magic</p></div><span class="dot" aria-hidden="true"></span></div></article>
-<article class="card"><div class="photo"><img src="assets/turtle.jpg" alt="Original peach bead turtle with a purple and turquoise shell"></div><div class="caption"><div><h3>Tiny turtle</h3><p>Small and shell-tastic</p></div><span class="dot" aria-hidden="true"></span></div></article>
-<article class="card"><div class="photo"><img src="assets/sunglasses.jpg" alt="Original pink bead sunglasses with dark lenses"></div><div class="caption"><div><h3>Pink sunglasses</h3><p>Sunny-day style</p></div><span class="dot" aria-hidden="true"></span></div></article>
-<article class="card"><div class="photo"><img src="assets/heart.jpg" alt="Original red outline heart made from beads"></div><div class="caption"><div><h3>Lovely heart</h3><p>Made with love</p></div><span class="dot" aria-hidden="true"></span></div></article>
-<article class="card"><div class="photo"><img src="assets/ghost.jpg" alt="Original white and grey bead ghost holding a peach pumpkin"></div><div class="caption"><div><h3>Little ghost</h3><p>A friendly little boo!</p></div><span class="dot" aria-hidden="true"></span></div></article>
-<article class="card"><div class="photo"><img src="assets/bow.jpg" alt="Original pink and white bead bow with two trailing ribbons"></div><div class="caption"><div><h3>Pretty bow</h3><p>Pink, white and delightful</p></div><span class="dot" aria-hidden="true"></span></div></article>
+{% assign photo_files = site.static_files | sort: "path" %}
+{% assign featured = "/assets/unicorn.jpg,/assets/turtle.jpg,/assets/sunglasses.jpg,/assets/heart.jpg,/assets/ghost.jpg,/assets/bow.jpg" | split: "," %}
+{% for path in featured %}
+  {% assign photo = photo_files | where: "path", path | first %}
+  {% if photo %}{% include photo-card.html photo=photo %}{% endif %}
+{% endfor %}
+{% assign formats = ".jpg,.jpeg,.png,.webp,.gif,.avif" | split: "," %}
+{% for photo in photo_files %}
+  {% assign folder = photo.path | slice: 0, 8 %}
+  {% assign extension = photo.extname | downcase %}
+  {% if folder == "/assets/" and formats contains extension %}
+    {% unless featured contains photo.path %}
+      {% include photo-card.html photo=photo %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
 </div></section></main><footer><span class="footer-beads" aria-hidden="true">● ● ●</span>A little collection of things we love to make.</footer>
 </body></html>

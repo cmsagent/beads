@@ -1,0 +1,32 @@
+{
+  "/assets/unicorn.jpg": {
+    "title": "Purple unicorn",
+    "caption": "A little bit of magic",
+    "alt": "Original purple bead unicorn with white hooves and a turquoise horn"
+  },
+  "/assets/turtle.jpg": {
+    "title": "Tiny turtle",
+    "caption": "Small and shell-tastic",
+    "alt": "Original peach bead turtle with a purple and turquoise shell"
+  },
+  "/assets/sunglasses.jpg": {
+    "title": "Pink sunglasses",
+    "caption": "Sunny-day style",
+    "alt": "Original pink bead sunglasses with dark lenses"
+  },
+  "/assets/heart.jpg": {
+    "title": "Lovely heart",
+    "caption": "Made with love",
+    "alt": "Original red outline heart made from beads"
+  },
+  "/assets/ghost.jpg": {
+    "title": "Little ghost",
+    "caption": "A friendly little boo!",
+    "alt": "Original white and grey bead ghost holding a peach pumpkin"
+  },
+  "/assets/bow.jpg": {
+    "title": "Pretty bow",
+    "caption": "Pink, white and delightful",
+    "alt": "Original pink and white bead bow with two trailing ribbons"
+  }
+}
