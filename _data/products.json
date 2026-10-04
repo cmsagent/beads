@@ -69,7 +69,8 @@
     "rotate_clockwise": true
   },
   "/assets/Hedgehogs.jpg": {
-    "caption": "A tiny, prickly pal!"
+    "caption": "A tiny, prickly pal!",
+    "rotate_clockwise": true
   },
   "/assets/Smore.jpg": {
     "title": "S'more",
