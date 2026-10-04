@@ -51,7 +51,8 @@
     "caption": "Bubbles of fun!"
   },
   "/assets/Pastel heart.jpg": {
-    "caption": "Pink, purple and full of love"
+    "caption": "Pink, purple and full of love",
+    "rotate_clockwise": true
   },
   "/assets/The spongebob crew.jpg": {
     "caption": "Undersea friends, bead by bead"
