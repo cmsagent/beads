@@ -73,7 +73,8 @@
   },
   "/assets/Smore.jpg": {
     "title": "S'more",
-    "caption": "A sweet treat, bead by bead!"
+    "caption": "A sweet treat, bead by bead!",
+    "rotate_clockwise": true
   },
   "/assets/Stanleys.jpg": {
     "caption": "Tiny tumblers, big style"
