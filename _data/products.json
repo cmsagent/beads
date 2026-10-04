@@ -36,7 +36,8 @@
     "price": "£3"
   },
   "/assets/Lipstick.jpg": {
-    "caption": "A little pop of colour"
+    "caption": "A little pop of colour",
+    "price": "£3"
   },
   "/assets/Purple piano.jpg": {
     "caption": "Tiny keys, big tunes",
@@ -92,7 +93,8 @@
   "/assets/Smore.jpg": {
     "title": "S'more",
     "caption": "A sweet treat, bead by bead!",
-    "rotate_clockwise": true
+    "rotate_clockwise": true,
+    "price": "£3"
   },
   "/assets/Stanleys.jpg": {
     "caption": "Tiny tumblers, big style",
