@@ -55,7 +55,11 @@
     "rotate_counterclockwise": true
   },
   "/assets/The spongebob crew.jpg": {
-    "caption": "Undersea friends, bead by bead"
+    "caption": "Undersea friends, bead by bead",
+    "rotate_counterclockwise": true
+  },
+  "/assets/Some simple letters.jpg": {
+    "rotate_counterclockwise": true
   },
   "/assets/Stanleys.jpg": {
     "caption": "Tiny tumblers, big style"
