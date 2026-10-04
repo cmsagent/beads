@@ -2,75 +2,92 @@
   "/assets/unicorn.jpg": {
     "title": "Purple unicorn",
     "caption": "A little bit of magic",
-    "alt": "Original purple bead unicorn with white hooves and a turquoise horn"
+    "alt": "Original purple bead unicorn with white hooves and a turquoise horn",
+    "price": "£5"
   },
   "/assets/turtle.jpg": {
     "title": "Tiny turtle",
     "caption": "Small and shell-tastic",
-    "alt": "Original peach bead turtle with a purple and turquoise shell"
+    "alt": "Original peach bead turtle with a purple and turquoise shell",
+    "price": "2 for £3 or 3 for £4"
   },
   "/assets/sunglasses.jpg": {
     "title": "Pink sunglasses",
     "caption": "Sunny-day style",
-    "alt": "Original pink bead sunglasses with dark lenses"
+    "alt": "Original pink bead sunglasses with dark lenses",
+    "price": "£3"
   },
   "/assets/heart.jpg": {
     "title": "Lovely heart",
     "caption": "Made with love",
-    "alt": "Original red outline heart made from beads"
+    "alt": "Original red outline heart made from beads",
+    "price": "£3"
   },
   "/assets/ghost.jpg": {
     "title": "Little ghost",
     "caption": "A friendly little boo!",
-    "alt": "Original white and grey bead ghost holding a peach pumpkin"
+    "alt": "Original white and grey bead ghost holding a peach pumpkin",
+    "price": "£5"
   },
   "/assets/bow.jpg": {
     "title": "Pretty bow",
     "caption": "Pink, white and delightful",
-    "alt": "Original pink and white bead bow with two trailing ribbons"
+    "alt": "Original pink and white bead bow with two trailing ribbons",
+    "price": "£3"
   },
   "/assets/Lipstick.jpg": {
     "caption": "A little pop of colour"
   },
   "/assets/Purple piano.jpg": {
-    "caption": "Tiny keys, big tunes"
+    "caption": "Tiny keys, big tunes",
+    "price": "2 for £3 or 3 for £4"
   },
   "/assets/Colourful flower.jpg": {
-    "caption": "A rainbow in full bloom"
+    "caption": "A rainbow in full bloom",
+    "price": "£5"
   },
   "/assets/Gumball machine.jpg": {
-    "caption": "Pick a colour, any colour!"
+    "caption": "Pick a colour, any colour!",
+    "price": "£3"
   },
   "/assets/Star.jpg": {
-    "caption": "Shine bright, little star!"
+    "caption": "Shine bright, little star!",
+    "price": "£3"
   },
   "/assets/The great wave off Kanagawa.jpg": {
-    "caption": "Big wave, tiny beads!"
+    "caption": "Big wave, tiny beads!",
+    "price": "£3"
   },
   "/assets/Boba tea.jpg": {
-    "caption": "Bubbles of fun!"
+    "caption": "Bubbles of fun!",
+    "price": "£3"
   },
   "/assets/Pastel heart.jpg": {
     "caption": "Pink, purple and full of love",
-    "rotate_counterclockwise": true
+    "rotate_counterclockwise": true,
+    "price": "£3"
   },
   "/assets/The spongebob crew.jpg": {
     "title": "The SpongeBob Crew",
     "caption": "Undersea friends, bead by bead",
-    "rotate_counterclockwise": true
+    "rotate_counterclockwise": true,
+    "price": "2 for £3 or 3 for £4"
   },
   "/assets/Some simple letters.jpg": {
     "caption": "Spell out something special!",
-    "rotate_counterclockwise": true
+    "rotate_counterclockwise": true,
+    "price": "£3.50"
   },
   "/assets/Little goasts.jpg": {
     "title": "Little Ghosts",
     "caption": "Three little boos in a row!",
-    "rotate_clockwise": true
+    "rotate_clockwise": true,
+    "price": "2 for £3 or 3 for £4"
   },
   "/assets/Hedgehogs.jpg": {
     "caption": "A tiny, prickly pal!",
-    "rotate_clockwise": true
+    "rotate_clockwise": true,
+    "price": "2 for £3 or 3 for £4"
   },
   "/assets/Smore.jpg": {
     "title": "S'more",
@@ -78,23 +95,29 @@
     "rotate_clockwise": true
   },
   "/assets/Stanleys.jpg": {
-    "caption": "Tiny tumblers, big style"
+    "caption": "Tiny tumblers, big style",
+    "price": "2 for £3 or 3 for £4"
   },
   "/assets/2 mushrooms.jpg": {
-    "caption": "Two fun little fungi"
+    "caption": "Two fun little fungi",
+    "price": "2 for £3 or 3 for £4"
   },
   "/assets/The jam crew.jpg": {
-    "caption": "Spread a little happiness"
+    "caption": "Spread a little happiness",
+    "price": "2 for £3 or 3 for £4"
   },
   "/assets/2 pots.jpg": {
-    "caption": "Double the colour, double the fun!"
+    "caption": "Double the colour, double the fun!",
+    "price": "2 for £3 or 3 for £4"
   },
   "/assets/3d mushroom.jpg": {
-    "caption": "A tiny toadstool standing tall"
+    "caption": "A tiny toadstool standing tall",
+    "price": "2 for £3 or 3 for £4"
   },
   "/assets/2 Wales.jpg": {
     "title": "Two whales",
     "caption": "Two little whales making waves",
-    "rotate_counterclockwise": true
+    "rotate_counterclockwise": true,
+    "price": "2 for £3 or 3 for £4"
   }
 }

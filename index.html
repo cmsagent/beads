@@ -13,11 +13,12 @@ layout: null
 .photo.is-rotated{container-type:size;overflow:hidden}
 .photo.is-rotated img{width:90cqh;height:90cqw;object-fit:contain;max-width:none;max-height:none;transform:rotate(-90deg)}
 .photo.is-rotated.is-clockwise img{transform:rotate(90deg)}
-.site-nav{display:flex;gap:8px;align-items:center}.site-nav a{color:#482460;text-decoration:none;font-weight:800;padding:9px 14px;border:2px solid #744194;border-radius:999px;background:#fff}.site-nav a:hover,.site-nav a:focus-visible{background:#e1faf5}.site-nav a[aria-current="page"]{background:#744194;color:#fff}@media(max-width:650px){header{flex-wrap:wrap}.site-nav{width:100%;justify-content:center}}
+.caption .price{font-size:15px;font-weight:800;color:#22685f;margin:0 0 5px}
+.site-nav{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.site-nav a{color:#482460;text-decoration:none;font-weight:800;padding:9px 14px;border:2px solid #744194;border-radius:999px;background:#fff}.site-nav a:hover,.site-nav a:focus-visible{background:#e1faf5}.site-nav a[aria-current="page"]{background:#744194;color:#fff}@media(max-width:650px){header{flex-wrap:wrap}.site-nav{width:100%;justify-content:center}}
 </style>
 </head>
 <body>
-<header><div class="brand"><span class="bead" aria-hidden="true"></span>Our Bead Shop</div><nav class="site-nav" aria-label="Main pages"><a href="{{ '/' | relative_url }}" aria-current="page">Creations</a><a href="{{ '/info.html' | relative_url }}">Info about the shop</a></nav></header>
+<header><div class="brand"><span class="bead" aria-hidden="true"></span>Our Bead Shop</div><nav class="site-nav" aria-label="Main pages"><a href="{{ '/' | relative_url }}" aria-current="page">Creations</a><a href="{{ '/prices.html' | relative_url }}">Prices</a><a href="{{ '/info.html' | relative_url }}">Info about the shop</a></nav></header>
 <main class="shop">
 <div class="awning" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
 <section class="intro"><p class="eyebrow">Made by hand, bead by bead</p><h1>Small creations,<br>big smiles.</h1><p>Welcome to our colourful little collection.</p></section>
