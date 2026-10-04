@@ -52,7 +52,7 @@
   },
   "/assets/Pastel heart.jpg": {
     "caption": "Pink, purple and full of love",
-    "rotate_clockwise": true
+    "rotate_counterclockwise": true
   },
   "/assets/The spongebob crew.jpg": {
     "caption": "Undersea friends, bead by bead"
@@ -74,6 +74,7 @@
   },
   "/assets/2 Wales.jpg": {
     "title": "Two whales",
-    "caption": "Two little whales making waves"
+    "caption": "Two little whales making waves",
+    "rotate_counterclockwise": true
   }
 }
