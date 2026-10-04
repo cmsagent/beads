@@ -60,11 +60,20 @@
     "rotate_counterclockwise": true
   },
   "/assets/Some simple letters.jpg": {
+    "caption": "Spell out something special!",
     "rotate_counterclockwise": true
   },
   "/assets/Little goasts.jpg": {
     "title": "Little Ghosts",
+    "caption": "Three little boos in a row!",
     "rotate_clockwise": true
+  },
+  "/assets/Hedgehogs.jpg": {
+    "caption": "A tiny, prickly pal!"
+  },
+  "/assets/Smore.jpg": {
+    "title": "S'more",
+    "caption": "A sweet treat, bead by bead!"
   },
   "/assets/Stanleys.jpg": {
     "caption": "Tiny tumblers, big style"
